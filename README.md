@@ -1,4 +1,4 @@
-![image](https://github.com/Engenharia-Finder/OPTA-PROG-WATCHDOG-CLOUD/assets/133161771/84812b93-c560-41e1-8d4a-49d4211ca808)# OPTA-PROG-WATCHDOG-CLOUD
+# OPTA-PROG-WATCHDOG-CLOUD
 It is programmed in time to show how to arm the various data created in the Arduino Cloud even if the OPTA has lost connection to the internet or external power. Also, this tutorial will also be available on how to run a program without OPTING when it is offline from the internet.
 
 # OR TUTORIAL COME HERE
