@@ -19,3 +19,13 @@ The 3 functions above are basically used to execute something when one of these 
 In this case we have doThisOnConnect, doThisOnSync, doThisOnDisconnect event. So in these 3 events we can define that something happens when they are called.
 
 ![image](https://github.com/Engenharia-Finder/OPTA-PROG-WATCHDOG-CLOUD/assets/133161771/d5fd6988-ebd4-4a3f-b328-a68cc3d171ef)
+
+# INSIDE VOID LOOP
+
+void loop() {
+  ArduinoCloud.update();
+  /*Your code will be executed here*/
+}
+
+Inside the void loop we will have the programming that will be executed whether connected or disconnected with the cloud, so we can, for example, place a count of activations of one of the OPTA outputs inside the loop.
+![image](https://github.com/Engenharia-Finder/OPTA-PROG-WATCHDOG-CLOUD/assets/133161771/7d4b8738-d303-481e-bf8c-7d2530fd98b7)
