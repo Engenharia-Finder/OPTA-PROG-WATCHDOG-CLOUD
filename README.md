@@ -1,5 +1,8 @@
-# OPTA-PROG-WATCHDOG-CLOUD
+# Overview
 It is programmed in time to show how to arm the various data created in the Arduino Cloud even if the OPTA has lost connection to the internet or external power. Also, this tutorial will also be available on how to run a program without OPTING when it is offline from the internet.
+
+# Goals 
+Learn how to configure the Arduino Cloud Watchdog so that it does not reset saved variables and also perform programming if the OPTA loses communication with Wi-Fi
 
 # OR TUTORIAL COME HERE, INSIDE VOID SETUP
 
